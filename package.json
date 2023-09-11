@@ -1,0 +1,47 @@
+{
+  "dependencies": {
+    "@capacitor/core": "^5.2.3",
+    "@capacitor/ios": "^5.2.3",
+    "@stitches/react": "^1.2.8",
+    "@types/react-color": "^3.0.6",
+    "@types/tinycolor2": "^1.4.3",
+    "capacitor": "^0.5.5",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.9.0",
+    "react-router-dom": "^6.9.0",
+    "tinycolor2": "^1.6.0",
+    "typescript": "^5.1.6"
+  },
+  "name": "color-palette",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github-andy:Andrew0609/color-palette.git",
+  "author": "andy",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.2.3",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@typescript-eslint/eslint-plugin": "^5.44.0",
+    "@typescript-eslint/parser": "^5.44.0",
+    "@vitejs/plugin-react": "^3.1.0",
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.31.11",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.7.1",
+    "vite": "^4.1.0"
+  }
+}
