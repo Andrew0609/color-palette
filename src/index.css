@@ -43,7 +43,7 @@
     overflow: auto;
     min-width: 320px;
     min-height: 100vh;
-    padding-top: env(safe-area-inset-top);
+    margin-top: env(safe-area-inset-top);
   }
 
   #root {
