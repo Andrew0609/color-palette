@@ -38,7 +38,11 @@ function ColorPickerDialog({ open, onColorSelect }: any) {
     setColor(color.hex);
   };
 
+  const handleFocusOut = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   const onColorSelectComplete = () => {
+    handleFocusOut();
     onColorSelect(color);
   };
 
